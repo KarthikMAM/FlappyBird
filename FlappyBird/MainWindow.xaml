@@ -23,14 +23,14 @@
             </Image.RenderTransform>
         </Image>
         
-        <Label Name="Result" HorizontalAlignment="Center" Foreground="AntiqueWhite" FontWeight="ExtraBold" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" Background="Chocolate" RenderTransformOrigin="0.5,0.5" Height="95" Margin="92,174,163,201.6" Width="176" Visibility="Hidden" FontFamily="OCR A Extended" Content="Game Over !!!&#xD;&#xA;&#xD;&#xA;Score : 100">
+        <Label Name="Result" HorizontalAlignment="Center" Foreground="AntiqueWhite" FontWeight="ExtraBold" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" Background="Chocolate" RenderTransformOrigin="0.5,0.5" Height="95" Margin="92,174,163,201.6" Width="176" Visibility="Hidden" FontFamily="Lucida Console" Content="Game Over !!!&#xD;&#xA;&#xD;&#xA;Score : 100">
             <Label.RenderTransform>
                 <TransformGroup>
                     <RotateTransform Angle="-180"/>
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <Label Name="Instruction" Foreground="AntiqueWhite" HorizontalAlignment="Left" FontWeight="ExtraBold" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" Background="Chocolate" RenderTransformOrigin="0.5,0.5" Margin="51,189,0,218.6" Width="121" Height="63" Content="Press Space&#xD;&#xA;or Touch" FontFamily="OCR A Extended">
+        <Label Name="Instruction" Foreground="AntiqueWhite" HorizontalAlignment="Left" FontWeight="ExtraBold" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" Background="Chocolate" RenderTransformOrigin="0.5,0.5" Margin="51,189,0,218.6" Width="121" Height="63" Content="Press Space&#xD;&#xA;or Touch" FontFamily="Lucida Console">
             <Label.RenderTransform>
                 <TransformGroup>
                     <RotateTransform Angle="-180"/>
@@ -43,11 +43,11 @@
                     <RotateTransform Angle="180"/>
                 </TransformGroup>
             </DockPanel.RenderTransform>
-            <Label x:Name="Score" Content="Score : 000" HorizontalAlignment="Right" FontWeight="ExtraBold" Foreground="AntiqueWhite" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Width="184" Height="36" FontFamily="OCR A Extended"/>
-            <Button Content="New Game" Background="Transparent" HorizontalAlignment="Right" FontWeight="ExtraBold" Foreground="AntiqueWhite" FontSize="15" VerticalAlignment="Top" Width="88" Click="Button_Click" PreviewKeyDown="Window_PreviewKeyDown" Height="36" FontFamily="OCR A Extended"/>
+            <Label x:Name="Score" Content="Score : 000" HorizontalAlignment="Right" FontWeight="ExtraBold" Foreground="AntiqueWhite" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" Width="184" Height="36" FontFamily="Lucida Console"/>
+            <Button Content="New Game" Background="Transparent" HorizontalAlignment="Right" FontWeight="ExtraBold" Foreground="AntiqueWhite" FontSize="15" VerticalAlignment="Top" Width="88" Click="Button_Click" PreviewKeyDown="Window_PreviewKeyDown" Height="36" FontFamily="Lucida Console"/>
         </DockPanel>
         <MediaElement HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" LoadedBehavior="Manual" Visibility="Hidden" Name="BackgroundSound"/>
-        <Label Name="Brand" Foreground="AntiqueWhite" Content="©Kappspot" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="39,9,0,0" Width="88" RenderTransformOrigin="0.5,0.5" FontSize="15" FontFamily="OCR A Extended">
+        <Label Name="Brand" Foreground="AntiqueWhite" Content="©Kappspot" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="39,9,0,0" Width="88" RenderTransformOrigin="0.5,0.5" FontSize="15" FontFamily="Lucida Console">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
